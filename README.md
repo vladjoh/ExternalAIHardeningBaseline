@@ -13,7 +13,7 @@ Before importing the policies in this repository https://github.com/vladjoh/Exte
 - ✅ **Microsoft 365 Licensing**
   - Users must be assigned one of the following licenses:
     - Microsoft 365 Business Premium with Defender Suite
-    - Microsoft 365 E3
+    - Microsoft 365 E3 with Defender Suite
     - Microsoft 365 E5
     - Microsoft 365 E7
 
