@@ -63,37 +63,24 @@ Before importing the policies in this repository, ensure your Microsoft 365 envi
 
 The policies contained in this repository are designed to be imported using **MickeM's Intune Management Tool**.
 
-## Download
+## IMPORTANT - AppControl 
 
-Clone or download the tool from:
+App Control Managed Installer policy can't be improted as .json and needs to be setup manually, set it up before deploying App Control policy to your devices
 
-https://github.com/Micke-K/IntuneManagement
+<img width="961" height="725" alt="image" src="https://github.com/user-attachments/assets/ff2e8d6c-fc16-470c-a6f0-ba99ba99d2e6" />
 
-## Import Steps
+## Blocking All Non-Microsoft Websites
 
-1. Download and start **Intune Management Tool**.
-2. Connect the tool to your Microsoft tenant.
-3. Import the policies from this repository.
-4. Review the imported policies.
-5. Assign the policies to the appropriate users or devices.
-6. Verify that the deployment completes successfully.
+Once Defender for Endpoint and Cloud App integration is setup and you have device group in Defender go to Cloud Apps-> Cloud Apps Catalog --> Select All Gen AI and other AI apps , exclude non MS apps by tagging NON MS apps as Microsoft and than create a filter like on last picture
 
----
+<img width="1805" height="1231" alt="image" src="https://github.com/user-attachments/assets/5d4366ae-b55c-4725-afe9-8e8fc2e53c8d" />
 
-# Verification
+<img width="744" height="349" alt="image" src="https://github.com/user-attachments/assets/2d662bf3-17ef-42c0-ba4f-17c7769b9785" />
 
-After deployment, verify that:
+Than choose Select ALl and Tag them as Unsanctioned and select Device Group
 
-- Devices are successfully onboarded to Microsoft Defender for Endpoint.
-- Policies are successfully deployed from Intune.
-- Microsoft Defender for Cloud Apps integration is active.
-- Web Content Filtering is working as expected.
-- Custom Network Indicators are applied successfully.
+## Blocking known proxies
 
----
+In Settings -> Endpoint -> Web Content Filtering create a pplicy to Block "Illegal software", Illegal Software category contains well known proxies
+<img width="1225" height="1202" alt="image" src="https://github.com/user-attachments/assets/d924548f-3f52-46b5-9bbc-3d7c89c68900" />
 
-# Recommendations
-
-- Test the deployment in a lab or pilot group before deploying to production.
-- Verify all prerequisite integrations before importing the policies.
-- Keep Microsoft Defender and Microsoft Intune connectors healthy before assigning policies.
