@@ -3,7 +3,7 @@ External AI hardening baseline for Windows 11
 
 # Prerequisites
 
-Before importing the policies in this repository, ensure your Microsoft 365 environment meets the following requirements.
+Before importing the policies in this repository https://github.com/vladjoh/ExternalAIHardeningBaseline/tree/main/ExternalAiHardeningW11, ensure your Microsoft 365 environment meets the following requirements.
 
 ## Requirements
 
