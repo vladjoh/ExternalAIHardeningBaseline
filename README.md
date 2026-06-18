@@ -27,9 +27,9 @@ Before importing the policies in this repository https://github.com/vladjoh/Exte
 
 - ✅ **Microsoft Defender for Endpoint Integration**
   - In the Microsoft Defender portal, navigate to:
-    ```
-    Settings → Endpoints
-    ```
+
+    Settings -> Endpoint 
+    
   - Enable the **Microsoft Intune connection**.
 <img width="1451" height="609" alt="image" src="https://github.com/user-attachments/assets/fed83e08-2029-4e95-9775-16d872e20bdc" />
 
@@ -37,9 +37,9 @@ Before importing the policies in this repository https://github.com/vladjoh/Exte
 
 - ✅ **Microsoft Defender for Cloud Apps Integration**
   - In the Microsoft Defender portal, navigate to:
-    ```
-    Settings → Endpoints 
-    ```
+    
+   Settings -> Endpoints 
+   
   - Microsoft Defender for Cloud Apps (MDCA)
 
   <img width="1467" height="1081" alt="image" src="https://github.com/user-attachments/assets/018f04ec-5ab3-4577-9f39-41f53b1fca68" />
@@ -47,8 +47,8 @@ Before importing the policies in this repository https://github.com/vladjoh/Exte
 
 - ✅ **Endpoint Features**
   - In the Microsoft Defender portal, navigate to:
-    ```
-    Settings → Endpoints
+
+    Settings -> Endpoints 
 
   - Ensure the following features are enabled:
     - Custom Network Indicators
