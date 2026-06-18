@@ -69,7 +69,7 @@ App Control Managed Installer policy can't be improted as .json and needs to be 
 
 <img width="961" height="725" alt="image" src="https://github.com/user-attachments/assets/ff2e8d6c-fc16-470c-a6f0-ba99ba99d2e6" />
 
-## Blocking All Non-Microsoft Websites
+## Blocking All Non-Microsoft AI Sites
 
 Once Defender for Endpoint and Cloud App integration is setup and you have device group in Defender go to Cloud Apps-> Cloud Apps Catalog --> Select All Gen AI and other AI apps , exclude non MS apps by tagging NON MS apps as Microsoft and than create a filter like on last picture
 
