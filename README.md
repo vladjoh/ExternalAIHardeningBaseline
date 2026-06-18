@@ -84,3 +84,14 @@ Than choose Select ALl and Tag them as Unsanctioned and select Device Group
 In Settings -> Endpoint -> Web Content Filtering create a pplicy to Block "Illegal software", Illegal Software category contains well known proxies
 <img width="1225" height="1202" alt="image" src="https://github.com/user-attachments/assets/d924548f-3f52-46b5-9bbc-3d7c89c68900" />
 
+
+## Blocking 3 party Teams apps
+
+Go to https://admin.teams.microsoft.com/policies/manage-apps
+Actions -> Org wide setings 
+<img width="1667" height="555" alt="image" src="https://github.com/user-attachments/assets/931d6098-318d-4108-8069-eb5768cc732b" />
+
+Choose this setting and save 
+
+<img width="364" height="862" alt="image" src="https://github.com/user-attachments/assets/717d7b80-ca5c-4947-a349-a73ffe08cd32" />
+
