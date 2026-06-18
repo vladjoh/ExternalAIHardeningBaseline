@@ -65,7 +65,7 @@ The policies contained in this repository are designed to be imported using **Mi
 
 ## IMPORTANT - AppControl 
 
-App Control Managed Installer policy can't be improted as .json and needs to be setup manually, set it up before deploying App Control policy to your devices
+App Control Managed Installer policy can't be improted as .json and needs to be setup manually, set it up before deploying App Control policy to your devices. Remember to double check that IME - Intune Managed Extension is installed on device, before enforcing policy for AppControl otherwise it wouldn't work. If it's not installing IME extension with Installer policy, than try to deploy an win32 app first
 
 <img width="961" height="725" alt="image" src="https://github.com/user-attachments/assets/ff2e8d6c-fc16-470c-a6f0-ba99ba99d2e6" />
 
