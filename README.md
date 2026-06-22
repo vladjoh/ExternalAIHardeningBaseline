@@ -97,7 +97,17 @@ Choose this setting and save
 
 ## Blocking 3 party Teams apps
 
-Require phishing resistant MFA + compliant device on sign in with Conditional Access
+Go to https://admin.teams.microsoft.com/policies/manage-apps -> Actions -> Org wide app settings 
+
+<img width="1678" height="514" alt="image" src="https://github.com/user-attachments/assets/95071099-c773-4497-b3d7-84c831347e6b" />
+
+Choose these controls and save 
+
+<img width="374" height="871" alt="image" src="https://github.com/user-attachments/assets/b2589b47-6b2b-48b4-b6bd-796483e5365c" />
+
+
+## Require phishing resistant MFA + compliant device on sign in with Conditional Access
+
 
 ## Set up app protecton policies in Intune for BYOD devices 
 
