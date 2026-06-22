@@ -95,3 +95,13 @@ Choose this setting and save
 
 <img width="364" height="862" alt="image" src="https://github.com/user-attachments/assets/717d7b80-ca5c-4947-a349-a73ffe08cd32" />
 
+## Blocking 3 party Teams apps
+
+Require phishing resistant MFA + compliant device on sign in with Conditional Access
+
+## Set up app protecton policies in Intune for BYOD devices 
+
+Set up app protection policies for BYID devices in Intune and require it with Conditional Access on sign ins. 
+Restrict copy/paste, backup to external cloud, screenshots etc. 
+
+
