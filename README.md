@@ -95,16 +95,6 @@ Choose this setting and save
 
 <img width="364" height="862" alt="image" src="https://github.com/user-attachments/assets/717d7b80-ca5c-4947-a349-a73ffe08cd32" />
 
-## Blocking 3 party Teams apps
-
-Go to https://admin.teams.microsoft.com/policies/manage-apps -> Actions -> Org wide app settings 
-
-<img width="1678" height="514" alt="image" src="https://github.com/user-attachments/assets/95071099-c773-4497-b3d7-84c831347e6b" />
-
-Choose these controls and save 
-
-<img width="374" height="871" alt="image" src="https://github.com/user-attachments/assets/b2589b47-6b2b-48b4-b6bd-796483e5365c" />
-
 
 ## Require phishing resistant MFA + compliant device on sign in with Conditional Access
 
